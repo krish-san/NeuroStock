@@ -1,0 +1,7 @@
+item_name,category,stock,min_stock_threshold,expiry_date
+Milk,Dairy,8,10,2025-07-14
+Bread,Bakery,3,5,2025-07-13
+Yogurt,Dairy,20,10,2025-07-17
+Chips,Snacks,30,15,2025-08-01
+Apple,Fruits,12,10,2025-07-15
+

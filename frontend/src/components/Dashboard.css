@@ -1,0 +1,80 @@
+.dashboard-container {
+  font-family: sans-serif;
+  padding: 2rem;
+  color: #222;
+}
+
+.weather-box {
+  background: #e0f7fa;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.calendar-container {
+  margin-top: 2rem;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.calendar-day {
+  background: #f0f0f0;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.calendar-day:hover {
+  background: #d0f0ff;
+}
+
+.selected {
+  border: 2px solid #0071ce;
+}
+
+.weather-tag {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.event-tag {
+  font-size: 0.7rem;
+  color: #d10000;
+}
+
+.calendar-detail {
+  margin-top: 1rem;
+  background: #fff9c4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.chart-section {
+  margin-top: 3rem;
+}
+
+.chart-wrapper {
+  width: 300px;
+  margin: auto;
+}
+
+.alerts {
+  margin-top: 2rem;
+  background: #fce4ec;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.scenario {
+  margin-top: 2rem;
+  background: #ede7f6;
+  padding: 1rem;
+  border-radius: 8px;
+}
