@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 
 # Either use environment variable or hardcode your API key here:
-API_KEY = os.getenv("WEATHER_API_KEY")
+API_KEY = os.getenv("38db43196275dd1e802f76d7730c7e60")
 CITY = "Chennai"
 URL = f"https://api.openweathermap.org/data/2.5/forecast?q={CITY}&appid={API_KEY}&units=metric"
 
