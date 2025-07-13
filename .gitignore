@@ -1,0 +1,42 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Dependency artifacts
+*.egg-info/
+dist/
+build/
+
+# Testing
+htmlcov/
+.coverage
+pytest_cache/
+.tox/
+
+#  SQLite / local DBs
+*.db
+*.sqlite
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+#Environment/config secrets
+.env
+.env.*
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/config.toml
+
+# Deployment
+*.log
+
+# Editor folders
+.vscode/
+.idea/
